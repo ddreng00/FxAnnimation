@@ -63,7 +63,7 @@ public class FxAnimationEffects extends Application {
         //Configuring Group and Scene   
         Group root = new Group();  
         root.getChildren().add(rect);  
-        Scene scene = new Scene(root,600,400,Color.GRAY);  
+        Scene scene = new Scene(root,600,400,Color.RED);  
         primaryStage.setScene(scene);  
         primaryStage.setTitle("Animation and Effects projects");  
         primaryStage.show();  
