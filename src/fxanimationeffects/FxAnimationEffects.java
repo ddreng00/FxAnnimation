@@ -31,7 +31,7 @@ public class FxAnimationEffects extends Application {
       
         //Creating Rectangle   
         Rectangle rect = new Rectangle(200,100,200,200);  
-        rect.setFill(Color.BLUE);  // update colour
+        rect.setFill(Color.RED);  // update colour
         rect.setStroke(Color.GREEN);  //Update colour
         rect.setStrokeWidth(5);  
           
