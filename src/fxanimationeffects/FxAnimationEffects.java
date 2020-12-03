@@ -39,16 +39,16 @@ public class FxAnimationEffects extends Application {
         RotateTransition rotate = new RotateTransition();  
           
         //Setting Axis of rotation   
-        rotate.setAxis(Rotate.Z_AXIS);  
+        rotate.setAxis(Rotate.X_AXIS);  
           
         // setting the angle of rotation   
-        rotate.setByAngle(360);  
+        rotate.setByAngle(220);  
           
         //setting cycle count of the rotation   
         rotate.setCycleCount(500);  
           
         //Setting duration of the transition   
-        rotate.setDuration(Duration.millis(1000));  
+        rotate.setDuration(Duration.millis(2000));  
           
         //the transition will be auto reversed by setting this to true   
         rotate.setAutoReverse(true);  
